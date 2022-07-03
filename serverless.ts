@@ -33,7 +33,7 @@ const serverlessConfiguration: AWS = {
         }],
       },
     },
-    region: 'us-east-1'
+    region: 'eu-west-3'
   },
   // import the function via paths
   functions: { getAllTodos, createTodo, getTodo, updateTodo, deleteTodo },
